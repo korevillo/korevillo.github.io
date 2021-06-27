@@ -2,7 +2,7 @@ body {
     background-color: #2B2D42;
     margin: 50px;
     color: #FFE4FA;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Inconsolata', monospace;
 }
 
 a {
@@ -10,7 +10,7 @@ a {
     font-weight: bold;
 }
 
-h1 {
-    font-family: 'Inconsolata', monospace;
+h1, h2 {
+    margin-top: 50px;
     font-weight: bold;
 }
