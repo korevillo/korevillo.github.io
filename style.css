@@ -2,10 +2,15 @@ body {
     background-color: #2B2D42;
     margin: 50px;
     color: #FFE4FA;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 a {
     color: #CD5D67;
+    font-weight: bold;
+}
+
+h1 {
+    font-family: 'Inconsolata', monospace;
     font-weight: bold;
 }
