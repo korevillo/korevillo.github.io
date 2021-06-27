@@ -1,8 +1,9 @@
 body {
     background-color: #2B2D42;
-    margin: 50px;
+    margin: 100px;
     color: #FFE4FA;
     font-family: 'Inconsolata', monospace;
+    text-align: center;
 }
 
 a {
