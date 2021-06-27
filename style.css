@@ -1,5 +1,10 @@
 body {
- background-color: #001524;
- margin: 50px;
- color: #ffe4fa;
+    background-color: #2B2D42;
+    margin: 50px;
+    color: #FFE4FA;
+}
+
+a {
+    color: #CD5D67;
+    font-weight: bold;
 }
