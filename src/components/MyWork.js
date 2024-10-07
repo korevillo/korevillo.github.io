@@ -32,7 +32,7 @@ function MyWork() {
                     <a href="https://korevillo.github.io/ape-assessment-tools" target="_blank" rel="noopener noreferrer">
                         <h3>Developer, CSULB Adapted Physical Education</h3>
                     </a>
-                    <div className="dates">May 2022 - Present</div>
+                    <div className="dates">Oct 2022 - May 2023</div>
                     <p>Collaborated with field experts to develop a web application using React and Google Sheets API to simplify the process of locating appropriate assessments for students with disabilities.</p>
                 </div>
             </div>
