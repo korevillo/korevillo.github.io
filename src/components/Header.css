@@ -1,0 +1,12 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding: 20%;
+    padding-top: 5%;
+}
+
+img {
+    max-height: 128px;
+}

@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
+.nerko-one-regular {
+  font-family: "Nerko One", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.dm-mono-regular {
+  font-family: "DM Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.dm-mono-medium {
+  font-family: "DM Mono", monospace;
+  font-weight: 500;
+  font-style: normal;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+h1 {
+  font-family: "Nerko One", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 64px;
+  margin: 0;
+}
+
+h2 {
+  font-family: "Nerko One", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 48px;
+}
+
+.subtitle {
+  font-family: "DM Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  margin: 0;
+}
+
+h3 {
+  font-family: "DM Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+
+  padding: 10px;
   color: white;
+  background-color: black;
+  width: fit-content;
 }
 
-.App-link {
-  color: #61dafb;
+.dates {
+  font-family: "DM Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p {
+  font-family: "DM Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
 }
