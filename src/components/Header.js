@@ -11,7 +11,10 @@ function Header() {
             </div>
 
             <div className="right-side">
-                <img src={koIllustrated} alt="Katrina Orevillo" />
+            <div className="tooltip-container">
+                    <img src={koIllustrated} alt="Illustration of Katrina" className="tooltip-image" />
+                    <span className="tooltip">Welcome to my site! ✧˖°</span>
+                </div>
             </div>
         </div>
     );
