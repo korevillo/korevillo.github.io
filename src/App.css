@@ -50,8 +50,9 @@ h3 {
   font-family: "DM Mono", monospace;
   font-weight: 400;
   font-style: normal;
-  font-size: 24px;
+  font-size: 16px;
 
+  margin-top: 0;
   padding: 10px;
   color: white;
   background-color: black;
@@ -62,7 +63,7 @@ h3 {
   font-family: "DM Mono", monospace;
   font-weight: 400;
   font-style: normal;
-  font-size: 24px;
+  font-size: 16px;
 }
 
 p {
