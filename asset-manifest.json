@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/korevillo.github.io/static/css/main.c09608fd.css",
+    "main.js": "/korevillo.github.io/static/js/main.58151b8d.js",
+    "static/js/453.2c25bd60.chunk.js": "/korevillo.github.io/static/js/453.2c25bd60.chunk.js",
+    "static/media/ko_illustrated.png": "/korevillo.github.io/static/media/ko_illustrated.00a59c233fb8f6f0995b.png",
+    "static/media/ig filters.png": "/korevillo.github.io/static/media/ig filters.0ece5cf99d3afb28ce6e.png",
+    "static/media/loop.png": "/korevillo.github.io/static/media/loop.70e44c1871995e19b3dd.png",
+    "static/media/assessments.png": "/korevillo.github.io/static/media/assessments.9bc96762363c91d7f274.png",
+    "static/media/paintings.png": "/korevillo.github.io/static/media/paintings.cf482ecd1513e14d1b7d.png",
+    "index.html": "/korevillo.github.io/index.html",
+    "main.c09608fd.css.map": "/korevillo.github.io/static/css/main.c09608fd.css.map",
+    "main.58151b8d.js.map": "/korevillo.github.io/static/js/main.58151b8d.js.map",
+    "453.2c25bd60.chunk.js.map": "/korevillo.github.io/static/js/453.2c25bd60.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c09608fd.css",
+    "static/js/main.58151b8d.js"
+  ]
+}
