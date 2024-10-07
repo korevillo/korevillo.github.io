@@ -1,0 +1,36 @@
+.card {
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.card img {
+    max-height: 256px;
+    border-radius: 16px;
+    transition: transform 400ms;
+}
+
+.card img:hover {
+    transform: scale(1.02);
+}
+
+.right-side-yellow h3:hover {
+    color: #FFD23F;
+    transition-duration: 400ms;
+}
+
+.right-side-green h3:hover {
+    color: #3BCEAC;
+    transition-duration: 400ms;
+}
+
+.right-side-red h3:hover {
+    color: #EE4266;
+    transition-duration: 400ms;
+}
+
+.card .left-side-nolink img:hover{
+    transform: scale(1);
+}
