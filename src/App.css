@@ -1,38 +1,326 @@
-.App {
-  text-align: center;
+/* Fonts */
+.darumadrop-one-regular {
+  font-family: "Darumadrop One", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.dm-mono-light {
+  font-family: "DM Mono", serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.dm-mono-regular {
+  font-family: "DM Mono", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.dm-mono-medium {
+  font-family: "DM Mono", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.dm-mono-light-italic {
+  font-family: "DM Mono", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.dm-mono-regular-italic {
+  font-family: "DM Mono", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.dm-mono-medium-italic {
+  font-family: "DM Mono", serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+/* Headers */
+
+h1 {
+  font-family: "Darumadrop One", serif;
+  font-size: 3vw;
+
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-family: "DM Mono", serif;
+  font-weight: 400;
+  font-size: 1.25vw;
+}
+
+.header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.sectionHeader {
+  background-color: black;
+  
+
+  padding-top: 0.5vw;
+  padding-bottom: 0.5vw;
+  width: 50vw;
+
+  font-family: "DM Mono", serif;
+  font-weight: 400;
+  text-align: center;
+  font-size: 1.25vw;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* Layout */
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding-top: 5vh;
+  padding-bottom: 10vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.section {
+  display: flex;
+  flex-direction: column;
+  max-width: 50vw;
+  gap: 0;
+}
+
+.sectionContent {
+  display: flex;
+  flex-direction: row;
+
+  align-items: start;
+  padding: 2vw;
+  text-align: center;
+
+  column-gap: 5vw;
+}
+
+.sectionContentRight {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  text-align: start;
+  row-gap: 1.5vw;
+}
+
+.sectionContent img {
+  width: 16vw;
+  border-radius: 24px;
+}
+
+.tooltip-container {
+  position: relative; /* Position relative for absolute tooltip positioning */
+  display: inline-block; /* Ensures the tooltip aligns with the image */
+}
+
+.tooltip-container img {
+  width: 8vw;
+  transition: transform 1s ease;
+}
+
+.tooltip-container img:hover {
+  transform: rotate(-7deg);
+}
+
+.tooltip {
+  visibility: hidden;
+
+  color: black;
+  font-family: "DM Mono", serif;
+  font-size: 0.7vw;
+  text-align: center;
+
+
+  border-radius: 3vw;
+  border-style: dashed;
+  border-width: 0.1vw;
+
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-top: 0.5vw;
+  padding-bottom: 0.5vw;
+
+  position: absolute;
+
+  width: max-content;
+
+  margin-left: 0.1vw;
+  margin-top: 1.5vw;
+  
+
+  /* Initial State */
+  opacity: 0;
+  transition: opacity 1s ease, visibility 0s linear 1s;;
+}
+
+.tooltip-container:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 1s ease, visibility 0s linear 0s;
+}
+
+.sectionContent h4 {
+  font-family: "DM Mono", serif;
+  font-weight: 500;
+  font-size: 1.25vw;
+
+  margin: 0;
+}
+
+.sectionContent h5 { 
+  font-family: "DM Mono", serif;
+  font-weight: 400;
+  font-size: 1vw;
+  font-style: italic;
+
+  margin: 0;
+}
+
+.sectionContent p {
+  font-family: "DM Mono", serif;
+  font-weight: 400;
+  font-size: 0.9vw;
+  margin: 0;
+}
+
+.sectionContent li {
+  font-family: "DM Mono", serif;
+  font-weight: 400;
+  font-size: 0.9vw;
+  margin: 0;
+}
+
+.sectionContent a {
+  color: #593EC6;
+}
+
+.section .linkedIn {
+  font-family: "DM Mono", serif;
+  font-weight: 400;
+  font-size: 0.9vw;
+  margin: 0;
+  align-self: center;
+  text-align: center;
+}
+
+.section .linkedIn a{
+  color: #02A9EA;
+}
+
+/* For mobile */
+@media (max-width: 768px) { /* Adjusts for screens smaller than 768px */
+  h1 {
+    font-family: "Darumadrop One", serif;
+    font-size: 10vw;
+  
+    margin-top: 0;
+    margin-bottom: 0;
   }
-  to {
-    transform: rotate(360deg);
+  
+  h2 {
+    font-family: "DM Mono", serif;
+    font-weight: 400;
+    font-size: 5vw;
+    margin-top: 0;
   }
+
+  .header img {
+    padding: 0;
+    width: 20vw;
+  }
+  
+  .section {
+    max-width: 75vw;
+    justify-content: space-around;
+  }
+
+  .sectionHeader {
+    width: 75vw;
+    font-size: 4vw;
+
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+
+    margin-top: 6vw;
+    margin-bottom: 6vw;
+  }
+
+  .sectionContent {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sectionContentRight {
+    align-items: center;
+  }
+
+  .sectionContent img {
+    width: 60vw;
+    border-radius: 12px;
+  }
+
+  .sectionContent h4 {
+    font-family: "DM Mono", serif;
+    font-weight: 500;
+    font-size: 5vw;
+  
+    text-align: center;
+    margin-top: 5vw;
+    margin-bottom: 1vw;
+  }
+  
+  .sectionContent h5 { 
+    font-family: "DM Mono", serif;
+    font-weight: 400;
+    font-size: 4vw;
+    font-style: italic;
+  
+    text-align: center;
+    margin: 1vw;
+  }
+  
+  .sectionContent p {
+    font-family: "DM Mono", serif;
+    font-weight: 400;
+    font-size: 4vw;
+
+    text-align: center;
+    margin: 1vw;
+  }
+  
+  .sectionContent li {
+    font-family: "DM Mono", serif;
+    font-weight: 400;
+    font-size: 3vw;
+
+    list-style-type: none;
+
+    text-align: center;
+    margin: 1vw;
+  }
+  
+  .sectionContent a {
+    color: #593EC6;
+  }
+
+  
+.section .linkedIn {
+  font-family: "DM Mono", serif;
+  font-weight: 400;
+  font-size: 4vw;
+  margin: 0;
+  align-self: center;
+  text-align: center;
+}
 }
